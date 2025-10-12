@@ -25,7 +25,23 @@
         1) Сохранение данных
         2) Пишем текст коммита, после чего нажимаем на галочку *коммит*
         3) кнопка пуш по идее
+
+        Команды для вывода логов проекта (коммиты/даты/кто сделал коммит/время)
+        Короткий лог:
+        1) git log --oneline --graph --decorate --all
+        Длинный лог:
+        2) git log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
         
+        Алиасы: - сокращения любой команды - добавлены в gitconfig:
+
+        [alias]
+	        s = status --short
+	        l = log --oneline --graph --decorate --all
+	        g = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
+	        br = branch
+	        co = checkout
+
+
     </p>
 </body>
 </html>
