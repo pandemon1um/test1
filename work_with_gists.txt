@@ -1,0 +1,6 @@
+Для работы с гистами нужно скачать расширение gist от Ken Howard
+Получаем токен на гите - заходим на гит -> меню -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token (classic) -> в note указать для чего (for gist) -> поставть галочку gist -> generate и копируем токен
+  
+ф1 - select profile
+После создания файла - нажимаем ф1 и вводим gist -> create new gist 
+
